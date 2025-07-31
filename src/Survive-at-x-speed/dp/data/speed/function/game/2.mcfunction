@@ -1,0 +1,1 @@
+$tellraw @s {text:"[点一下这里]",color:"dark_red",bold:true,,click_event:{action:"run_command",command:"tick rate $(rate)"}}

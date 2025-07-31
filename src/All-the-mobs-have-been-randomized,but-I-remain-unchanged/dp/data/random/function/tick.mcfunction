@@ -1,0 +1,1 @@
+execute as @e[type=!player,tag=!random] run function random:randomize_1 with entity @s

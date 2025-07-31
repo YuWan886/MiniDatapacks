@@ -1,0 +1,27 @@
+{
+    "type": "multi_action",
+    "title": {
+        "text": "X倍速 | 控制台"
+    },
+    "inputs": [
+        {
+            "key": "speed",
+            "type": "text",
+            "label": {
+                "text": "你想以几倍速生存？"
+            },
+            "initial": "5"
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "text": "开始游戏"
+            },
+            "action": {
+                "type": "dynamic/run_command",
+                "template": "function speed:game/1 {speed:$(speed)}"
+            }
+        }
+    ]
+}
