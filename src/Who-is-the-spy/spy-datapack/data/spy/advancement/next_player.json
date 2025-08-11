@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "poppy": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "poppy",
+                    "components": {
+                        "consumable": {
+                            "animation": "none",
+                            "consume_seconds": 0,
+                            "has_consume_particles": false,
+                            "sound": "ui.button.click"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "spy:game/speak/next_player"
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "type": "multi_action",
+    "title": {
+        "text": "谁是卧底 | 控制台"
+    },
+    "columns": 1,
+    "body": [
+        {
+            "type": "item",
+            "item": {
+                "id": "book"
+            },
+            "description": {
+                "text": "游戏规则",
+                "color": "gold",
+                "bold": true
+            },
+            "show_decorations": false,
+            "show_tooltip": false
+        },
+        {
+            "type": "plain_message",
+            "contents": [{ "text": "1. 游玩人数"},{"text": "3-8","color": "green"}]
+        },
+        {
+            "type": "plain_message",
+            "contents": [{"text": "2. 玩家都需要"},{"text": "OP权限\n","color": "dark_purple"}]
+        },
+        {
+            "type": "item",
+            "item": {
+                "id": "poppy"
+            },
+            "description": {
+                "text": "游戏流程",
+                "color": "gold",
+            "bold": true
+            },
+            "show_decorations": false,
+            "show_tooltip": false
+        },
+        {
+            "type": "plain_message",
+            "contents": [{"text": "1. 设置昵称","hover_event": {"action": "show_text","value": {"text": "中英文均可"}}}]
+        },
+        {
+            "type": "plain_message",
+            "contents": [{"text": "2. 发词阶段","hover_event": {"action": "show_text","value": {"text": "别忘掉了"}}}]
+        },
+        {
+            "type": "plain_message",
+            "contents": [{"text": "3. 轮流发言","hover_event": {"action": "show_text","value": {"text": "无时间限制,右键\"结束发言\",即可轮换"}}}]
+        },
+        {
+            "type": "plain_message",
+            "contents": [{"text": "4. 投票阶段\n\n","hover_event": {"action": "show_text","value": {"text": "票数最多者淘汰,票最多者不唯一不淘汰"}}}]
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "text": "开始游戏",
+                "color": "dark_green"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "function spy:game/start/ready"
+            }
+        },
+        {
+            "label": {
+                "text": "结束游戏",
+                "color": "red"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "function spy:game/end"
+            }
+        }
+    ]
+}

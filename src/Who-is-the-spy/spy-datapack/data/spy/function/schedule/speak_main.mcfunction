@@ -1,0 +1,1 @@
+function spy:game/speak/main with storage spy:game speak

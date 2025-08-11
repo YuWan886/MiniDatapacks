@@ -1,0 +1,34 @@
+{
+    "type": "multi_action",
+    "title": {
+        "text": "谁是卧底 | 投票"
+    },
+    "columns": 1,
+    "can_close_with_escape": false,
+    "body": {
+        "type": "plain_message",
+        "contents": [
+            {
+                "text": "输入你的昵称"
+            }
+        ]
+    },
+    "inputs": [
+        {
+            "key": "name",
+            "type": "text",
+            "label": {
+                "text": "昵称"
+            }
+        }
+    ],
+    "actions": [
+       {
+        "label": "确定",
+        "action": {
+            "type": "dynamic/run_command",
+            "template": "function spy:game/start/set_name {name:\"$(name)\"}"
+        }
+       }
+    ]
+}
