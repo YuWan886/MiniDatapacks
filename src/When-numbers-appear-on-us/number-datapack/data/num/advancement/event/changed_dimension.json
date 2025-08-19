@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "changed_dimension": {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.ChangedDimension": 0
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "num:game/event/type/changed_dimension/check"
+    }
+}

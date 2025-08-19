@@ -1,0 +1,731 @@
+{
+    "criteria": {
+        "apple": {
+            "conditions": {
+                "item": {
+                    "items": "apple"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "baked_potato": {
+            "conditions": {
+                "item": {
+                    "items": "baked_potato"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "beef": {
+            "conditions": {
+                "item": {
+                    "items": "beef"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "beetroot": {
+            "conditions": {
+                "item": {
+                    "items": "beetroot"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "beetroot_soup": {
+            "conditions": {
+                "item": {
+                    "items": "beetroot_soup"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "bread": {
+            "conditions": {
+                "item": {
+                    "items": "bread"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "carrot": {
+            "conditions": {
+                "item": {
+                    "items": "carrot"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "chicken": {
+            "conditions": {
+                "item": {
+                    "items": "chicken"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "chorus_fruit": {
+            "conditions": {
+                "item": {
+                    "items": "chorus_fruit"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "cod": {
+            "conditions": {
+                "item": {
+                    "items": "cod"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "cooked_beef": {
+            "conditions": {
+                "item": {
+                    "items": "cooked_beef"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "cooked_chicken": {
+            "conditions": {
+                "item": {
+                    "items": "cooked_chicken"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "cooked_cod": {
+            "conditions": {
+                "item": {
+                    "items": "cooked_cod"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "cooked_mutton": {
+            "conditions": {
+                "item": {
+                    "items": "cooked_mutton"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "cooked_porkchop": {
+            "conditions": {
+                "item": {
+                    "items": "cooked_porkchop"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "cooked_rabbit": {
+            "conditions": {
+                "item": {
+                    "items": "cooked_rabbit"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "cooked_salmon": {
+            "conditions": {
+                "item": {
+                    "items": "cooked_salmon"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "cookie": {
+            "conditions": {
+                "item": {
+                    "items": "cookie"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "dried_kelp": {
+            "conditions": {
+                "item": {
+                    "items": "dried_kelp"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "enchanted_golden_apple": {
+            "conditions": {
+                "item": {
+                    "items": "enchanted_golden_apple"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "glow_berries": {
+            "conditions": {
+                "item": {
+                    "items": "glow_berries"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "golden_apple": {
+            "conditions": {
+                "item": {
+                    "items": "golden_apple"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "golden_carrot": {
+            "conditions": {
+                "item": {
+                    "items": "golden_carrot"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "honey_bottle": {
+            "conditions": {
+                "item": {
+                    "items": "honey_bottle"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "melon_slice": {
+            "conditions": {
+                "item": {
+                    "items": "melon_slice"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "mushroom_stew": {
+            "conditions": {
+                "item": {
+                    "items": "mushroom_stew"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "mutton": {
+            "conditions": {
+                "item": {
+                    "items": "mutton"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "poisonous_potato": {
+            "conditions": {
+                "item": {
+                    "items": "poisonous_potato"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "porkchop": {
+            "conditions": {
+                "item": {
+                    "items": "porkchop"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "potato": {
+            "conditions": {
+                "item": {
+                    "items": "potato"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "pufferfish": {
+            "conditions": {
+                "item": {
+                    "items": "pufferfish"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "pumpkin_pie": {
+            "conditions": {
+                "item": {
+                    "items": "pumpkin_pie"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "rabbit": {
+            "conditions": {
+                "item": {
+                    "items": "rabbit"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "rabbit_stew": {
+            "conditions": {
+                "item": {
+                    "items": "rabbit_stew"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "rotten_flesh": {
+            "conditions": {
+                "item": {
+                    "items": "rotten_flesh"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "salmon": {
+            "conditions": {
+                "item": {
+                    "items": "salmon"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "spider_eye": {
+            "conditions": {
+                "item": {
+                    "items": "spider_eye"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "suspicious_stew": {
+            "conditions": {
+                "item": {
+                    "items": "suspicious_stew"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "sweet_berries": {
+            "conditions": {
+                "item": {
+                    "items": "sweet_berries"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        },
+        "tropical_fish": {
+            "conditions": {
+                "item": {
+                    "items": "tropical_fish"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.Eat": 0
+                        }
+                    }
+                ]
+            },
+            "trigger": "consume_item"
+        }
+    },
+    "requirements": [
+        [
+            "apple",
+            "mushroom_stew",
+            "bread",
+            "porkchop",
+            "cooked_porkchop",
+            "golden_apple",
+            "enchanted_golden_apple",
+            "cod",
+            "salmon",
+            "tropical_fish",
+            "pufferfish",
+            "cooked_cod",
+            "cooked_salmon",
+            "cookie",
+            "melon_slice",
+            "beef",
+            "cooked_beef",
+            "chicken",
+            "cooked_chicken",
+            "rotten_flesh",
+            "spider_eye",
+            "carrot",
+            "potato",
+            "baked_potato",
+            "poisonous_potato",
+            "golden_carrot",
+            "pumpkin_pie",
+            "rabbit",
+            "cooked_rabbit",
+            "rabbit_stew",
+            "mutton",
+            "cooked_mutton",
+            "chorus_fruit",
+            "beetroot",
+            "beetroot_soup",
+            "dried_kelp",
+            "suspicious_stew",
+            "sweet_berries",
+            "honey_bottle",
+            "glow_berries"
+        ]
+    ],
+    "rewards": {
+        "function": "num:game/event/type/eat/check"
+    }
+}

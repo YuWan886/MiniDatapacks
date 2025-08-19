@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "hurt_mob": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#num:hostile"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "num:game/event/type/hurt_mob/check"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "placed_block": {
+            "trigger": "placed_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.PlacedBlock": 0
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "num:game/event/type/placed_block/check"
+    }
+}

@@ -1,0 +1,1 @@
+give @s paper[custom_name={text:"洞察之石",color:"light_purple",italic:false},lore=[{text:"右键使用",color:"white",italic:false},{text:"冷却时间",color:"white",italic:false},{text:"Debug物品",color:"red",italic:false,bold:true}],consumable={animation:"none",consume_seconds:0,has_consume_particles:false,sound:"block.enchantment_table.use"}]

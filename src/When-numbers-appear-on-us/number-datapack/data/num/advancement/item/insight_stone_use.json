@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "insight_stone_use": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "paper",
+                    "components": {
+                        "custom_name": {
+                            "text": "洞察之石",
+                            "color": "light_purple",
+                            "italic": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "num:item/insight_stone_use"
+    }
+}

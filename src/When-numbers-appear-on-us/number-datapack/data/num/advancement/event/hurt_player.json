@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "hurt_player": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.HurtPlayer": 0
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "num:game/event/type/hurt_player/check"
+    }
+}

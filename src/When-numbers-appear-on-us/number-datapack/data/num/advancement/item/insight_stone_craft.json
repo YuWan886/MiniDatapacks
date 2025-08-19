@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "insight_stone_craft": {
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "num:insight_stone"
+            }
+        }
+    },
+    "rewards": {
+        "function": "num:item/insight_stone_craft"
+    }
+}

@@ -1,0 +1,1 @@
+tellraw @a[tag=debug] ["",{text:"[Debug]",color:"red"},{text:"在石头上跳来跳去",color:"gold"}]

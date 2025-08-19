@@ -1,0 +1,1 @@
+execute if score #Game G.GameState matches 1 as @a run function num:game/event/check

@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "filled_bucket_water":{
+            "trigger": "filled_bucket",
+            "conditions": {
+                "item": {
+                    "items": "water_bucket"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.FilledBucket.Water": 0
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "num:game/event/type/filled_bucket_water/check"
+    }
+}

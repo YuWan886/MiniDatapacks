@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "filled_bucket_lava":{
+            "trigger": "filled_bucket",
+            "conditions": {
+                "item": {
+                    "items": "lava_bucket"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.FilledBucket.Lava": 0
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "num:game/event/type/filled_bucket_lava/check" 
+    }
+}

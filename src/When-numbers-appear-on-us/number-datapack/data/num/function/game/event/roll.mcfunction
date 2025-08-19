@@ -1,0 +1,25 @@
+execute store result score #Game G.Roll run random value 1..23
+
+execute if score #Game G.Roll matches 1 run function num:game/event/type/jump/setup
+execute if score #Game G.Roll matches 2 run function num:game/event/type/open_chest/setup
+execute if score #Game G.Roll matches 3 run function num:game/event/type/interact_crafting_table/setup
+execute if score #Game G.Roll matches 4 run function num:game/event/type/changed_dimension/setup
+execute if score #Game G.Roll matches 5 run function num:game/event/type/sleep/setup
+execute if score #Game G.Roll matches 6 run function num:game/event/type/trade/setup
+execute if score #Game G.Roll matches 7 run function num:game/event/type/kill_mob/setup
+execute if score #Game G.Roll matches 8 run function num:game/event/type/kill_player/setup
+execute if score #Game G.Roll matches 9 run function num:game/event/type/bred/setup
+execute if score #Game G.Roll matches 10 run function num:game/event/type/hurt_player/setup
+execute if score #Game G.Roll matches 11 run function num:game/event/type/hurt_mob/setup
+execute if score #Game G.Roll matches 12 run function num:game/event/type/get_hurt/setup
+execute if score #Game G.Roll matches 13 run function num:game/event/type/dead/setup
+execute if score #Game G.Roll matches 14 run function num:game/event/type/placed_block/setup
+execute if score #Game G.Roll matches 15 run function num:game/event/type/filled_bucket_water/setup
+execute if score #Game G.Roll matches 16 run function num:game/event/type/filled_bucket_lava/setup
+execute if score #Game G.Roll matches 17 run function num:game/event/type/fish/setup
+execute if score #Game G.Roll matches 18 run function num:game/event/type/eat/setup
+execute if score #Game G.Roll matches 19 run function num:game/event/type/smelting/setup
+execute if score #Game G.Roll matches 20 run function num:game/event/type/press_key/setup
+execute if score #Game G.Roll matches 21 run function num:game/event/type/drop/setup
+execute if score #Game G.Roll matches 22 run function num:game/event/type/pick_up_cobblestone/setup
+execute if score #Game G.Roll matches 23 run function num:game/event/type/mine_stone/setup

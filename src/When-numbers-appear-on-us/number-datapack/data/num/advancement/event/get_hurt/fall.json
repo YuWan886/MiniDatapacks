@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "fall": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "num:fall" 
+                            }
+                        ]
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "E.GetHurt": 5
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "num:game/event/type/get_hurt/check"
+    }
+}

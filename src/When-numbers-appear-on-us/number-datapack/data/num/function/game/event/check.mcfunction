@@ -1,0 +1,15 @@
+execute if score #Game G.Roll matches 1 run function num:game/event/type/jump/check
+execute if score #Game G.Roll matches 2 run function num:game/event/type/open_chest/check
+execute if score #Game G.Roll matches 3 run function num:game/event/type/interact_crafting_table/check
+execute if score #Game G.Roll matches 5 run function num:game/event/type/sleep/check
+execute if score #Game G.Roll matches 6 run function num:game/event/type/trade/check
+execute if score #Game G.Roll matches 7 run function num:game/event/type/kill_mob/check
+execute if score #Game G.Roll matches 8 run function num:game/event/type/kill_player/check
+execute if score #Game G.Roll matches 9 run function num:game/event/type/bred/check
+execute if score #Game G.Roll matches 13 run function num:game/event/type/dead/check
+execute if score #Game G.Roll matches 17 run function num:game/event/type/fish/check
+execute if score #Game G.Roll matches 19 run function num:game/event/type/smelting/check
+execute if score #Game G.Roll matches 20 run function num:game/event/type/press_key/check
+execute if score #Game G.Roll matches 21 run function num:game/event/type/drop/check
+execute if score #Game G.Roll matches 22 run function num:game/event/type/pick_up_cobblestone/check
+execute if score #Game G.Roll matches 23 run function num:game/event/type/mine_stone/check
