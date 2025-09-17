@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "eat_food": {
+            "trigger": "consume_item"
+        }
+    },
+    "rewards": {
+        "function": "thtp:type/special/eat_food"
+    }
+}

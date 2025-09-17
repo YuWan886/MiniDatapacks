@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "inventory_changed": {
+            "trigger": "inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "thtp:type/common/inventory_changed"
+    }
+}

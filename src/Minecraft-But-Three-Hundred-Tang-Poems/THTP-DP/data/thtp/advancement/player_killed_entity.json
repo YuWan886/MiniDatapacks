@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "player_killed_entity": {
+            "trigger": "player_killed_entity"
+        }
+    },
+    "rewards": {
+        "function": "thtp:type/common/player_killed_entity"
+    }
+}

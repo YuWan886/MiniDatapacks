@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "slept": {
+            "trigger": "slept_in_bed"
+        }
+    },
+    "rewards": {
+        "function": "thtp:type/special/slept_in_bed"
+    }
+}

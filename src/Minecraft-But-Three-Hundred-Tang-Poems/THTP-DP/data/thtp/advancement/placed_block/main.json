@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "placed_block": {
+            "trigger": "placed_block"
+        }
+    },
+    "rewards": {
+        "function": "thtp:type/common/placed_block"
+    }
+}
