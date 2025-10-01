@@ -1,0 +1,74 @@
+{
+  "type": "multi_action",
+  "title": [
+    "",
+    {
+      "text": "5年挖矿,3年合成",
+      "color": "gold"
+    },
+    " | ",
+    {
+      "text": "物品篇",
+      "color": "green"
+    }
+  ],
+  "can_close_with_escape": false,
+  "exit_action": {
+    "label": {
+      "text": "放弃",
+      "color": "dark_red",
+      "bold": true
+    },
+    "action": {
+      "type": "run_command",
+      "command": "trigger Option set 0"
+    }
+  },
+  "columns": 1,
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "text": "强化深板岩需要什么工具才能采集？"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "A. 该方块不能被正常采集"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 1"
+      }
+    },
+    {
+      "label": {
+        "text": "B. 铁搞"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 2"
+      }
+    },
+    {
+      "label": {
+        "text": "C. 附魔精准采集的钻石镐"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 3"
+      }
+    },
+    {
+      "label": {
+        "text": "D. 附魔精准采集的下界合金镐"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 4"
+      }
+    }
+  ]
+}

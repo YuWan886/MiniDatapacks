@@ -1,0 +1,84 @@
+{
+    "type": "multi_action",
+    "title": {
+        "text": "5年挖矿,3年合成 | 游戏设置",
+        "color": "gold",
+        "bold": true
+    },
+    "body": {
+        "type": "plain_message",
+        "contents": [
+            {
+                "text": "填写格式："
+            },
+            {
+                "text": "\n只能是大于1的整数"
+            },
+            {
+                "text": "\n显示的是默认设置"
+            }
+        ]
+    },
+    "inputs": [
+        {
+            "key": "round_time",
+            "type": "text",
+            "label": {
+                "text": "回合时间(s)"
+            },
+            "initial": "60"
+        },
+        {
+            "key": "answer_time",
+            "type": "text",
+            "label": {
+                "text": "回答时间(s)"
+            },
+            "initial": "10"
+        },
+        {
+            "key": "initial_score",
+            "type": "text",
+            "label": {
+                "text": "初始分数"
+            },
+            "initial": "10"
+        },
+        {
+            "key": "reward_score",
+            "type": "text",
+            "label": {
+                "text": "奖励分数"
+            },
+            "initial": "5"
+        },
+        {
+            "key": "penalty_score",
+            "type": "text",
+            "label": {
+                "text": "惩罚分数"
+            },
+            "initial": "3"
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "text": "应用"
+            },
+            "action": {
+                "type": "dynamic/run_command",
+                "template": "/data modify storage 53-mnc:settings game set value {round_time:$(round_time),answer_time:$(answer_time),initial_score:$(initial_score),reward_score:$(reward_score),penalty_score:$(penalty_score)}"
+            }
+        },
+        {
+            "label": {
+                "text": "返回"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "53-mnc:settings/main"
+            }
+        }
+    ]
+}

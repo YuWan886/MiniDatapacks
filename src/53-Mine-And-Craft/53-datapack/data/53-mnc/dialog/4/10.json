@@ -1,0 +1,74 @@
+{
+  "type": "multi_action",
+  "title": [
+    "",
+    {
+      "text": "5年挖矿,3年合成",
+      "color": "gold"
+    },
+    " | ",
+    {
+      "text": "结构篇",
+      "color": "green"
+    }
+  ],
+  "can_close_with_escape": false,
+  "exit_action": {
+    "label": {
+      "text": "放弃",
+      "color": "dark_red",
+      "bold": true
+    },
+    "action": {
+      "type": "run_command",
+      "command": "trigger Option set 0"
+    }
+  },
+  "columns": 1,
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "text": "埋藏的宝藏生成在这个区块内X和Z坐标为多少的位置？"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "A. 3"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 1"
+      }
+    },
+    {
+      "label": {
+        "text": "B. 5"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 2"
+      }
+    },
+    {
+      "label": {
+        "text": "C. 7"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 3"
+      }
+    },
+    {
+      "label": {
+        "text": "D. 9"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 4"
+      }
+    }
+  ]
+}

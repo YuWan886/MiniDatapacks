@@ -1,0 +1,74 @@
+{
+  "type": "multi_action",
+  "title": [
+    "",
+    {
+      "text": "5年挖矿,3年合成",
+      "color": "gold"
+    },
+    " | ",
+    {
+      "text": "物品篇",
+      "color": "green"
+    }
+  ],
+  "can_close_with_escape": false,
+  "exit_action": {
+    "label": {
+      "text": "放弃",
+      "color": "dark_red",
+      "bold": true
+    },
+    "action": {
+      "type": "run_command",
+      "command": "trigger Option set 0"
+    }
+  },
+  "columns": 1,
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "text": "下面哪个物品的掉落物能防火？"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "A. 下界合金碎片"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 1"
+      }
+    },
+    {
+      "label": {
+        "text": "B. 附魔金苹果"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 2"
+      }
+    },
+    {
+      "label": {
+        "text": "C. 下界之星"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 3"
+      }
+    },
+    {
+      "label": {
+        "text": "D. 钻石"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 4"
+      }
+    }
+  ]
+}

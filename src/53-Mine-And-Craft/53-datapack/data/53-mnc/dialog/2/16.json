@@ -1,0 +1,74 @@
+{
+  "type": "multi_action",
+  "title": [
+    "",
+    {
+      "text": "5年挖矿,3年合成",
+      "color": "gold"
+    },
+    " | ",
+    {
+      "text": "物品篇",
+      "color": "green"
+    }
+  ],
+  "can_close_with_escape": false,
+  "exit_action": {
+    "label": {
+      "text": "放弃",
+      "color": "dark_red",
+      "bold": true
+    },
+    "action": {
+      "type": "run_command",
+      "command": "trigger Option set 0"
+    }
+  },
+  "columns": 1,
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "text": "玩家对成年犰狳使用哪种物品使得其掉落一个犰狳鳞片？"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "A. 剪刀"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 1"
+      }
+    },
+    {
+      "label": {
+        "text": "B. 刷子"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 2"
+      }
+    },
+    {
+      "label": {
+        "text": "C. 斧"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 3"
+      }
+    },
+    {
+      "label": {
+        "text": "D. 剑"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 4"
+      }
+    }
+  ]
+}

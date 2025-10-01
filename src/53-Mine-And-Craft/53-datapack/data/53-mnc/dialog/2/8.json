@@ -1,0 +1,78 @@
+{
+  "type": "multi_action",
+  "title": [
+    "",
+    {
+      "text": "5年挖矿,3年合成",
+      "color": "gold"
+    },
+    " | ",
+    {
+      "text": "物品篇",
+      "color": "green"
+    }
+  ],
+  "can_close_with_escape": false,
+  "exit_action": {
+    "label": {
+      "text": "放弃",
+      "color": "dark_red",
+      "bold": true
+    },
+    "action": {
+      "type": "run_command",
+      "command": "trigger Option set 0"
+    }
+  },
+  "columns": 1,
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "text": "下面关于钓鱼竿的耐久度消耗行为，哪个是不正确的？"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "A. 通过钓鱼成功钓上物品会消耗1点耐久度"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 1"
+      },
+      "width": 200
+    },
+    {
+      "label": {
+        "text": "B. 浮漂钩在地面上时收回会消耗2点耐久度"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 2"
+      },
+      "width": 200
+    },
+    {
+      "label": {
+        "text": "C. 浮漂钩在物品实体上时收回会消耗4点耐久度"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 3"
+      },
+      "width": 200
+    },
+    {
+      "label": {
+        "text": "D. 浮漂钩在实体上时收回会消耗5点耐久度，无论实体是否能被钩走"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 4"
+      },
+      "width": 200
+    }
+  ]
+}

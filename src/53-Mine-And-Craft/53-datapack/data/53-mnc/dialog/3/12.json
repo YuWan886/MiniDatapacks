@@ -1,0 +1,74 @@
+{
+  "type": "multi_action",
+  "title": [
+    "",
+    {
+      "text": "5年挖矿,3年合成",
+      "color": "gold"
+    },
+    " | ",
+    {
+      "text": "生物篇",
+      "color": "green"
+    }
+  ],
+  "can_close_with_escape": false,
+  "exit_action": {
+    "label": {
+      "text": "放弃",
+      "color": "dark_red",
+      "bold": true
+    },
+    "action": {
+      "type": "run_command",
+      "command": "trigger Option set 0"
+    }
+  },
+  "columns": 1,
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "text": "若山羊在蓄力和冲刺过程中受到攻击或是发现手持____的玩家，\n它就会瞬间停止冲刺。"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "A. 小麦"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 1"
+      }
+    },
+    {
+      "label": {
+        "text": "B. 栓绳"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 2"
+      }
+    },
+    {
+      "label": {
+        "text": "C. 剑"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 3"
+      }
+    },
+    {
+      "label": {
+        "text": "D. 末地烛"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger Option set 4"
+      }
+    }
+  ]
+}

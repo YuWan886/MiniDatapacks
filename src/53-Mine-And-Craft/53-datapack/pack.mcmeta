@@ -1,0 +1,8 @@
+{
+    "pack": {
+        "pack_format": 82,
+        "description": "5年挖矿,3年合成-数据包",
+        "min_format": 82.0,
+        "max_format": 1000.0
+    }
+}

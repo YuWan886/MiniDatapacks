@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "data": {
+    "fontId": "Alimama FangYuanTi VF",
+    "texts": [
+      {
+        "content": "5年挖矿",
+        "opts": {
+          "size": 10,
+          "depth": 10,
+          "x": 0,
+          "y": 8,
+          "z": 0,
+          "rotY": 0,
+          "materials": {
+            "front": {
+              "mode": "color",
+              "color": "#ffffff"
+            },
+            "back": {
+              "mode": "gradient",
+              "colorGradualStart": "rgb(182,123,255)",
+              "colorGradualEnd": "rgb(224,28,245)",
+              "repeat": 1,
+              "offset": 0
+            },
+            "up": {
+              "mode": "color",
+              "color": "rgb(191,21,230)"
+            },
+            "down": {
+              "mode": "color",
+              "color": "rgb(191,21,230)"
+            },
+            "left": {
+              "mode": "color",
+              "color": "rgb(191,21,230)"
+            },
+            "right": {
+              "mode": "color",
+              "color": "rgb(191,21,230)"
+            },
+            "outline": {
+              "mode": "color",
+              "color": "rgb(191,21,230)"
+            }
+          },
+          "outlineWidth": 0.1,
+          "letterSpacing": 1,
+          "spacingWidth": 0.2
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "content": "3年合成",
+        "opts": {
+          "size": 7,
+          "depth": 10,
+          "x": 0,
+          "y": -5,
+          "z": 0,
+          "rotY": 0,
+          "materials": {
+            "front": {
+              "mode": "color",
+              "color": "rgb(255,255,0)"
+            },
+            "back": {
+              "mode": "color",
+              "color": "rgb(105,105,7)"
+            },
+            "up": {
+              "mode": "color",
+              "color": "rgb(218,218,22)"
+            },
+            "down": {
+              "mode": "color",
+              "color": "rgb(115,115,18)"
+            },
+            "left": {
+              "mode": "color",
+              "color": "rgb(113,113,15)"
+            },
+            "right": {
+              "mode": "color",
+              "color": "rgb(207,207,33)"
+            },
+            "outline": {
+              "mode": "color",
+              "color": "rgb(255,255,0)"
+            }
+          },
+          "outlineWidth": 0.1,
+          "letterSpacing": 1.5,
+          "spacingWidth": 0.2
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+}

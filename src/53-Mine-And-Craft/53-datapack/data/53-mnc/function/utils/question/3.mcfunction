@@ -1,0 +1,6 @@
+$execute store result storage 53-mnc:event temp."$(UUID)".type int 1 run random value 1..$(typec)
+$execute if data storage 53-mnc:event temp."$(UUID)"{type:1} store result storage 53-mnc:event temp."$(UUID)".num int 1 run random value 1..$(block)
+$execute if data storage 53-mnc:event temp."$(UUID)"{type:2} store result storage 53-mnc:event temp."$(UUID)".num int 1 run random value 1..$(item)
+$execute if data storage 53-mnc:event temp."$(UUID)"{type:3} store result storage 53-mnc:event temp."$(UUID)".num int 1 run random value 1..$(mob)
+$execute if data storage 53-mnc:event temp."$(UUID)"{type:4} store result storage 53-mnc:event temp."$(UUID)".num int 1 run random value 1..$(structure)
+$execute if data storage 53-mnc:event temp."$(UUID)"{type:5} store result storage 53-mnc:event temp."$(UUID)".num int 1 run random value 1..$(img)

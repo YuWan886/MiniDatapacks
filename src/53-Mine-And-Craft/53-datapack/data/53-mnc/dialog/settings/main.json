@@ -1,0 +1,58 @@
+{
+    "type": "multi_action",
+    "external_title": {
+        "text": "控制面版",
+        "color": "gold",
+        "bold": true
+    },
+    "title": {
+        "text": "5年挖矿,3年合成 | 控制面版",
+        "color": "gold",
+        "bold": true
+    },
+    "columns": 1,
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": ["",{"color":"gold","bold":true,"text":"《5年挖矿,3年合成》\n"},"\n一个基于MC ",{"color":"dark_green","bold":true,"text":"Java 1.21.9"},"的知识问答数据包\n\n游戏包含多种类型的题目：",{"bold":true,"text":"方块篇、物品篇、生物篇、建筑篇"},"等等\n玩家需要在",{"bold":true,"text":"限定时间"},"内回答问题\n\n参考：",{"color":"light_purple","bold":true,"text":"MC Wiki","click_event":{"action":"open_url","url":"https://zh.minecraft.wiki"}}]
+        },
+        {
+            "type": "plain_message",
+            "contents": {
+                "text": "下面按钮需要OP\n\n\n",
+                "color": "red"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "text": "开始游戏",
+                "color": "green"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/function 53-mnc:game/start"
+            }
+        },
+        {
+            "label": {
+                "text": "游戏设置"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/dialog show @s 53-mnc:settings/config"
+            }
+        },
+        {
+            "label": {
+                "text": "结束游戏",
+                "color": "red"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/function 53-mnc:game/stop"
+            }
+        }
+    ]
+}

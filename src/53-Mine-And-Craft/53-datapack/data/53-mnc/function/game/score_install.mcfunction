@@ -1,0 +1,8 @@
+
+scoreboard objectives add Walk_CM custom:walk_one_cm
+scoreboard objectives add Mined_Count.Stone mined:stone
+
+scoreboard objectives add Interact.Crafting_Tabel custom:interact_with_crafting_table
+scoreboard objectives add Interact.Furnace custom:interact_with_furnace
+scoreboard objectives add Interact.Blast_Furnace custom:interact_with_blast_furnace
+scoreboard objectives add Interact.Smoker custom:interact_with_smoker
