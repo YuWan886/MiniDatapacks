@@ -1,0 +1,6 @@
+{
+    "env": {
+        "dataSource": "fastly",
+        "gameVersion": "Latest release"
+    }
+}
