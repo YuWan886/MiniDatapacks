@@ -1,0 +1,35 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		" a ",
+		"c#b",
+		" d "
+	],
+	"key": {
+		"a": "iron_ingot",
+		"b": "gold_ingot",
+		"c": "copper_ingot",
+		"d": "diamond",
+		"#": "clock"
+	},
+	"result": {
+		"id": "flint",
+		"components": {
+			"custom_name": {"translate":"game.item.time_chip.name","color": "dark_purple","bold": true,"italic": false},
+			"lore": [
+				{"translate": "game.item.time_chip.lore.1","color": "gray","italic": false}
+			],
+			"max_stack_size": 20,
+			"consumable": {
+				"animation": "none",
+				"consume_seconds": 1
+			},
+			"custom_model_data": {
+				"strings": [
+					"time_chip"
+				]
+			}
+		}
+	},
+	"category": "misc"
+}

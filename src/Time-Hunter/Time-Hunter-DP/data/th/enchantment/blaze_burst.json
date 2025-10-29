@@ -1,0 +1,112 @@
+{
+  "description": {
+    "translate": "game.enchantment.blaze_burst.name"
+  },
+  "anvil_cost": 5,
+  "max_level": 1,
+  "weight": 1,
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 30,
+    "per_level_above_first": 1
+  },
+  "supported_items": "#enchantable/bow",
+  "exclusive_set": "infinity",
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "ammo_use": [
+      {
+        "effect": {
+          "type": "set",
+          "value": 3
+        }
+      }
+    ],
+    "projectile_count": [
+      {
+        "effect": {
+          "type": "set",
+          "value": 1
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "explode",
+          "large_particle": {
+            "type": "explosion"
+          },
+          "small_particle": {
+            "type": "explosion"
+          },
+          "radius": 0.4,
+          "knockback_multiplier": {
+            "type": "linear",
+            "base": 0.3,
+            "per_level_above_first": 0.1
+          },
+          "sound": {
+            "sound_id": "entity.generic.explode"
+          },
+          "block_interaction": "tnt",
+          "create_fire": true,
+          "immune_blocks": [
+            "grass_block",
+            "stone",
+            "sand",
+            "dirt",
+            "end_stone"
+          ]
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#arrows"
+          }
+        }
+      }
+    ],
+    "hit_block": [
+      {
+        "effect": {
+          "type": "explode",
+          "large_particle": {
+            "type": "explosion"
+          },
+          "small_particle": {
+            "type": "explosion"
+          },
+          "radius": 1,
+          "sound": {
+            "sound_id": "entity.generic.explode"
+          },
+          "block_interaction": "tnt",
+          "create_fire": true,
+          "immune_blocks": [
+            "grass_block",
+            "stone",
+            "sand",
+            "dirt",
+            "end_stone"
+          ]
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#arrows"
+          }
+        }
+      }
+    ]
+  }
+}

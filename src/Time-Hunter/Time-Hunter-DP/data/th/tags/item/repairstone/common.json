@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#th:iron/tool",
+        "#th:iron/armor",
+        "#th:gold/tool",
+        "#th:gold/armor",
+        "#th:diamond/tool",
+        "#th:diamond/armor"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " c ",
+        "bab",
+        " c "
+    ],
+    "key": {
+        "a": "diamond_sword",
+        "b": "obsidian",
+        "c": "netherite_scrap"
+    },
+    "result": {
+        "id": "netherite_sword",
+        "components": {
+            "custom_name": {"translate": "game.weapon.lightly_netherite_sword.name","color": "dark_gray","italic": false},
+            "lore": [
+                "",
+                {"translate": "game.weapon.hold","color": "white","italic": false},
+                {"text": " 7.5 ","italic":false,"color": "dark_green","extra": [{"translate": "game.weapon.hold.attack_damage"}]},
+                {"text": " 1.6 ","italic":false,"color": "dark_green","extra": [{"translate": "game.weapon.hold.attack_speed"}]}
+            ],
+            "attribute_modifiers": [
+                {
+                    "type": "attack_damage",
+                    "amount": 7.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "223131"
+                }
+            ],
+            "tooltip_display":{"hidden_components": ["attribute_modifiers"]},
+            "custom_model_data": {
+                "strings": [
+                    "lightly_netherite_sword"
+                ]
+            }
+        }
+    },
+    "category": "equipment"
+}

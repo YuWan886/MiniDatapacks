@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "golden_shovel",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "custom_name": {"translate": "game.weapon.guochan.name","color": "dark_purple","italic": false},
+                "lore": [
+                  {"translate": "game.weapon.guochan.lore.1","color": "gray"}
+                ],
+                "enchantments": {
+                  "th:cook": 1
+                },
+                "attribute_modifiers": [
+                  {
+                    "type": "attack_damage",
+                    "amount": 5.0,
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "id": "253425"
+                  },
+                  {
+                    "type": "attack_speed",
+                    "amount": -1.5,
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "id": "253422"
+                  }
+                ],
+                "tooltip_display": {"hidden_components": ["attribute_modifiers","enchantments"]},
+                "custom_model_data": {
+                  "strings": [
+                    "guochan"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

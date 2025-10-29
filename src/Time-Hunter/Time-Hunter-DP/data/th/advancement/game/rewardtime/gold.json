@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "gold": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "stepping_on": {
+                        "block": {
+                            "blocks": "gold_block"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "th:game/rewardtime/gold"
+    }
+}

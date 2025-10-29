@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "diamond_sword",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name":{
+                                    "translate": "game.weapon.void_blade.name",
+                                    "italic": false
+                                },
+                                "lore": [
+                                    {
+                                        "translate": "game.weapon.void_blade.lore.1",
+                                        "color": "gray"
+                                    }
+                                ],
+                                "enchantments": {
+                                    "th:void": 1
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "type": "attack_damage",
+                                        "amount": 0,
+                                        "operation": "add_value",
+                                        "slot": "hand",
+                                        "id": "223130"
+                                    }
+                                ],
+                                "max_damage": 20,
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                },
+                                "custom_model_data": {
+                                    "strings": [
+                                        "void_blade"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "red": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "stepping_on": {
+                        "block": {
+                            "blocks": "red_wool"
+                        }
+                    },
+                    "nbt": "{Tags:[\"lobby\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "th:game/jointeam/red_join"
+    }
+}

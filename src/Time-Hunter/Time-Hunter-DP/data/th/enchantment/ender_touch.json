@@ -1,0 +1,33 @@
+{
+  "description": {
+    "translate": "game.enchantment.ender_touch.name",
+    "color": "dark_purple"
+  },
+  "anvil_cost": 5,
+  "max_level": 3,
+  "weight": 1,
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 28,
+    "per_level_above_first": 5
+  },
+  "supported_items": "#enchantable/sharp_weapon",
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "th:weapons/ender_blade/rtp"
+        }
+      }
+    ]
+  }
+}

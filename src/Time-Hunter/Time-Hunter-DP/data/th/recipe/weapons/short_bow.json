@@ -1,0 +1,36 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "bbb",
+        "bab",
+        "bbb"
+    ],
+    "key": {
+        "a": "bow",
+        "b": "copper_ingot"
+    },
+    "result": {
+        "id": "bow",
+        "components": {
+            "custom_name": {
+                "translate": "game.weapon.short_bow.name",
+                "italic": false
+            },
+            "enchantment_glint_override": false,
+            "enchantments": {
+                "power": 1
+            },
+            "tooltip_display": {
+                "hidden_components": [
+                    "enchantments"
+                ]
+            },
+            "custom_model_data": {
+                "strings": [
+                    "short_bow"
+                ]
+            }
+        }
+    },
+    "category": "equipment"
+}

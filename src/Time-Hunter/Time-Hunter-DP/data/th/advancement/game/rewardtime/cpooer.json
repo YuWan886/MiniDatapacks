@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "copper": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "stepping_on": {
+                        "block": {
+                            "blocks": "copper_block"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "th:game/rewardtime/copper"
+    }
+}

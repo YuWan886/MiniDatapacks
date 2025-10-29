@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "wither_rose",
+          "weight": 1
+        },
+        {
+          "type": "empty",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

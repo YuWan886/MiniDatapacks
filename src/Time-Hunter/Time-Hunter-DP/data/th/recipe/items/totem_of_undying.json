@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " b ",
+        "bab",
+        " b "
+    ],
+    "key": {
+        "a":"ghast_tear",
+        "b":"gold_ingot"
+    },
+    "result": {
+        "id": "totem_of_undying"
+    },
+    "category": "equipment"
+}

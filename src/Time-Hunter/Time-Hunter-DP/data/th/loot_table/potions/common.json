@@ -1,0 +1,96 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "potion",
+					"functions": [
+						{
+							"function": "set_potion",
+							"id": "invisibility"
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "potion",
+					"functions": [
+						{
+							"function": "set_potion",
+							"id": "fire_resistance"
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "potion",
+					"functions": [
+						{
+							"function": "set_potion",
+							"id": "swiftness"
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "potion",
+					"functions": [
+						{
+							"function": "set_potion",
+							"id": "regeneration"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "splash_potion",
+					"functions": [
+						{
+							"function": "set_potion",
+							"id": "invisibility"
+						}
+					],
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "splash_potion",
+					"functions": [
+						{
+							"function": "set_potion",
+							"id": "fire_resistance"
+						}
+					],
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "splash_potion",
+					"functions": [
+						{
+							"function": "set_potion",
+							"id": "swiftness"
+						}
+					],
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "splash_potion",
+					"functions": [
+						{
+							"function": "set_potion",
+							"id": "regeneration"
+						}
+					],
+					"weight": 2
+				}
+			]
+		}
+	]
+}

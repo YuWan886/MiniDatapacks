@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "random_tp": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "custom_model_data": {
+                            "floats": [
+                                10002
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "th:items/random_tp/check_cd"
+    }
+}

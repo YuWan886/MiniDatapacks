@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "common": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "custom_model_data": {
+                            "floats": [
+                                10001
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "th:items/repairstone/common"
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "bbb",
+    "bab",
+    " c "
+  ],
+  "key": {
+    "a": "wither_skeleton_skull",
+    "b": "iron_ingot",
+    "c": "iron_bars"
+  },
+  "result": {
+    "id": "iron_axe",
+    "components": {
+      "custom_name": {"translate": "game.weapon.withered_chain_hammer.name","color": "dark_purple","italic": false},
+      "lore": [
+        {"translate": "game.weapon.withered_chain_hammer.lore.1","color": "gray"},
+        {"translate": "game.weapon.withered_chain_hammer.lore.2","color": "gray"}
+      ],
+      "enchantment_glint_override":false,
+      "enchantments": {
+        "unbreaking":1,
+        "th:wither": 1
+    },
+    "tooltip_display": {"hidden_components": ["enchantments"]},
+      "custom_model_data": {
+        "strings": [
+          "withered_chain_hammer"
+        ]
+      }
+    }
+  },
+    "category": "equipment"
+}

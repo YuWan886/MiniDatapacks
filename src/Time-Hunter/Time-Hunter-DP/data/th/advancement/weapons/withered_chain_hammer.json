@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "wch": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "custom_model_data": {
+                  "strings": [
+                    "withered_chain_hammer"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "th:weapons/withered_chain_hammer/wither_rose"
+    ],
+    "function": "th:weapons/withered_chain_hammer"
+  }
+}

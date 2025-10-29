@@ -1,0 +1,18 @@
+{
+    "sound.team.shijian.yippee": {
+        "sounds": [
+            {
+                "name": "th:team/shijian/yippee"
+            }
+        ],
+        "subtitle": "game.sound.team.shijian.yippee"
+    },
+    "sound.enchantment.fractured":{
+        "sounds": [
+            {
+                "name": "th:enchantment/fractured"
+            }
+        ],
+        "subtitle": "game.sound.enchantment.fractured"
+    }
+}

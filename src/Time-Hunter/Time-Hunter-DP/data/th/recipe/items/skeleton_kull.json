@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "aba",
+        "b b",
+        "aba"
+      ],
+      "key": {
+        "a": "bone",
+        "b": "bone_block"
+      },
+      "result": {
+        "id": "skeleton_skull"
+      },
+      "category": "misc"
+}

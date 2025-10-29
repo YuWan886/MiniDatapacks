@@ -1,0 +1,47 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " ab",
+        "bcb",
+        " ab"
+    ],
+    "key": {
+        "a":"spider_eye",
+        "b":"string",
+        "c":"bow"
+    },
+    "result": {
+        "id": "bow",
+        "components": {
+            "custom_name": {
+                "translate": "game.weapon.entangling_bow.name",
+                "italic": false
+            },
+            "lore": [
+                {
+                    "translate": "game.weapon.entangling_bow.lore.1","color": "gray"
+                },
+                {
+                    "translate": "game.weapon.entangling_bow.lore.2",
+                    "color": "gray"
+                }
+            ],
+            "enchantment_glint_override": false,
+            "enchantments": {
+                "th:entangling": 1
+
+            },
+            "tooltip_display": {
+                "hidden_components": [
+                    "enchantments"
+                ]
+            },
+            "custom_model_data": {
+                "strings": [
+                    "entangling_bow"
+                ]
+            }
+        }
+    },
+    "category": "equipment"
+}

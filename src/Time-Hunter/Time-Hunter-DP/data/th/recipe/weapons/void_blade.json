@@ -1,0 +1,52 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " a ",
+        " b ",
+        " c "
+    ],
+    "key": {
+        "a":"obsidian",
+        "b":"nether_star",
+        "c":"diamond_sword"
+    },
+    "result": {
+        "id": "diamond_sword",
+        "components": {
+            "custom_name":{
+                "translate": "game.weapon.void_blade.name",
+                "italic": false
+            },
+            "lore": [
+                {
+                    "translate": "game.weapon.void_blade.lore.1",
+                    "color": "gray"
+                }
+            ],
+            "enchantments": {
+                "th:void": 1
+            },
+            "attribute_modifiers": [
+                {
+                    "type": "attack_damage",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "hand",
+                    "id": "223130"
+                }
+            ],
+            "max_damage": 20,
+            "tooltip_display": {
+                "hidden_components": [
+                    "attribute_modifiers"
+                ]
+            },
+            "custom_model_data": {
+                "strings": [
+                    "void_blade"
+                ]
+            }
+        }
+    },
+    "category": "equipment"
+}

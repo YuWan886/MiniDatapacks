@@ -1,0 +1,80 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "conditions": [
+                                {
+                                    "condition": "match_tool",
+                                    "predicate": {
+                                        "predicates": {
+                                            "enchantments": [
+                                                {
+                                                    "enchantments": "th:auto_smelt",
+                                                    "levels": {
+                                                        "min": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "apply_bonus",
+                                    "enchantment": "fortune",
+                                    "formula": "ore_drops"
+                                }
+                            ],
+                            "name": "iron_ingot"
+                        },
+                        {
+                            "type": "item",
+                            "conditions": [
+                                {
+                                    "condition": "match_tool",
+                                    "predicate": {
+                                        "predicates": {
+                                            "enchantments": [
+                                                {
+                                                    "enchantments": "silk_touch",
+                                                    "levels": {
+                                                        "min": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "name": "deepslate_iron_ore"
+                        },
+                        {
+                            "type": "item",
+                            "functions": [
+                                {
+                                    "function": "apply_bonus",
+                                    "enchantment": "fortune",
+                                    "formula": "ore_drops"
+                                },
+                                {
+                                    "function": "explosion_decay"
+                                }
+                            ],
+                            "name": "raw_iron"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "blocks/deepslate_iron_ore"
+}

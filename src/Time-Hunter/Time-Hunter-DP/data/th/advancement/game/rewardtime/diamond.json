@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "diamond": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "stepping_on": {
+                        "block": {
+                            "blocks": "diamond_block"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "th:game/rewardtime/diamond"
+    }
+}

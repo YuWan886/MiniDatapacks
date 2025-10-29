@@ -1,0 +1,2 @@
+# 动作栏显示剩余时间
+execute as @s[tag=!personout,tag=!spectator] run title @s actionbar [{translate: "game.score.remaintime"},{score: {name: "@s",objective: "RemainTimeHours"}},{translate: "game.score.remaintimehours"},{score: {name: "@s",objective: "RemainTimeMins"}},{translate: "game.score.remaintimemins"},{score: {name: "@s",objective: "RemainTimeSec"}},{translate: "game.score.remaintimesec"}]

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "green": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "stepping_on": {
+                        "block": {
+                            "blocks": "green_wool"
+                        }
+                    },
+                    "nbt": "{Tags:[\"lobby\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "th:game/jointeam/green_join"
+    }
+}

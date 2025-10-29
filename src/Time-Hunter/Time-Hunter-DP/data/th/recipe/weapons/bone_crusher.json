@@ -1,0 +1,44 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "abb",
+        "acb",
+        " c "
+    ],
+    "key": {
+        "a":"bone_block",
+        "b":"diamond",
+        "c":"stick"
+    },
+    "result": {
+        "id": "diamond_axe",
+        "components": {
+            "custom_name": {
+                "translate": "game.weapon.bone_crusher.name",
+                "color": "gold",
+                "italic": false
+            },
+            "lore": [
+                {
+                    "translate": "game.weapon.bone_crusher.lore.1","color": "gray"
+                }
+            ],
+            "max_damage": 1200,
+            "enchantment_glint_override": false,
+            "enchantments": {
+                "th:fractured": 1
+            },
+            "tooltip_display": {
+                "hidden_components": [
+                    "enchantments"
+                ]
+            },
+            "custom_model_data": {
+                "strings": [
+                    "bone_crusher"
+                ]
+            }
+        }
+    },
+    "category": "equipment" 
+}

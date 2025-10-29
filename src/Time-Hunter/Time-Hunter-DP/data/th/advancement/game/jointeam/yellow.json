@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "yellow": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "stepping_on": {
+                        "block": {
+                            "blocks": "yellow_wool"
+                        }
+                    },
+                    "nbt": "{Tags:[\"lobby\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "th:game/jointeam/yellow_join"
+    }
+}

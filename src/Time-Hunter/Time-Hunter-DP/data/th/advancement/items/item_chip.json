@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "item_chip": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "custom_model_data": {
+                            "strings": [
+                                "time_chip"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "th:items/time_chip/check"
+    }
+}

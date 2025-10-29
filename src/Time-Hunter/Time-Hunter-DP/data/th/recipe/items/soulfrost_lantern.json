@@ -1,0 +1,42 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " c ",
+        "bab",
+        " b "
+    ],
+    "key": {
+        "a":"soul_lantern",
+        "b":"iron_ingot",
+        "c":"pumpkin"
+    },
+    "result": {
+        "id": "soul_lantern",
+        "components": {
+            "custom_name": {
+                "translate": "game.item.soulfrost_lantern.name","italic": false,"color": "dark_aqua","bold": true
+            },
+            "lore": [
+                {"translate": "game.item.soulfrost_lantern.lore.1","italic": false,"color": "gray"},
+                {"translate": "game.item.soulfrost_lantern.lore.2","italic": false,"color": "gray"},
+                {"translate": "game.item.soulfrost_lantern.lore.3","color":"gray"},
+                {"translate": "game.item.soulfrost_lantern.lore.4","color": "gray"}
+            ],
+            "enchantment_glint_override": false,
+            "enchantments": {
+                "th:soulfrost_aura": 1
+            },
+            "tooltip_display": {
+                "hidden_components": [
+                    "enchantments"
+                ]
+            },
+            "custom_model_data": {
+                "strings": [
+                    "soulfrost_lantern"
+                ]
+            }
+        }
+    },
+    "category": "equipment"
+}

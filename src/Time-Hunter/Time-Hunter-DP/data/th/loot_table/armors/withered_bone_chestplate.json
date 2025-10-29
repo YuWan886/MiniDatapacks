@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "diamond_chestplate",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "custom_name": {
+                  "translate": "game.armor.withered_bone_chestplate.name",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "lore": [
+                  {
+                    "translate": "game.enchantment.wither_thorn.name",
+                    "color": "light_purple",
+                    "italic": false
+                  },
+                  {
+                    "translate": "game.armor.withered_bone_chestplate.lore.1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "game.armor.withered_bone_chestplate.lore.2",
+                    "color": "gray"
+                  }
+                ],
+                "enchantment_glint_override": false,
+                "enchantments": {
+                  "unbreaking": 3,
+                  "protection": 3,
+                  "th:wither_thorn": 1
+                },
+                "tooltip_display": {
+                  "hidden_components": [
+                    "attribute_modifiers",
+                    "enchantments"
+                  ]
+                },
+                "custom_model_data": {
+                  "strings": [
+                    "withered_bone_chestplate"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

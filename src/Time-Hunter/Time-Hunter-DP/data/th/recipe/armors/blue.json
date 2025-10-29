@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "a a",
+        " b ",
+        "   "
+    ],
+    "key": {
+        "a": "minecraft:blue_wool",
+        "b": "minecraft:white_wool"
+    },
+    "result": {
+        "id": "leather_leggings",
+        "components": {
+            "minecraft:equippable": {
+                "slot": "legs",
+                "asset_id": "th:blue"
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "aaa",
+        "aba",
+        "aaa"
+    ],
+    "key": {
+        "a": "cactus",
+        "b": "iron_chestplate"
+    },
+    "result": {
+        "id": "iron_chestplate",
+        "components": {
+            "custom_name": {
+                "translate": "game.armor.cactus_chestplate",
+                "color": "dark_purple",
+                "italic": false
+            },
+            "enchantment_glint_override": false,
+            "enchantments": {
+                "unbreaking": 10,
+                "thorns": 2,
+                "protection": 1
+            },
+            "custom_model_data": {
+                "strings": [
+                    "cactus_chestplate"
+                ]
+            }
+        }
+    },
+    "category": "equipment"
+}
