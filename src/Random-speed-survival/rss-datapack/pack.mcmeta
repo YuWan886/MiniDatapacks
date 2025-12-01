@@ -1,0 +1,14 @@
+{
+    "pack": {
+        "description": [
+            {
+                "text": "作者：一条鱼丸_",
+                "color": "red"
+            }
+        ],
+        "pack_format": 64,
+        "supported_formats":[64.0,1000.0],
+        "min_format":64.0,
+        "max_format":1000.0
+    }
+}
