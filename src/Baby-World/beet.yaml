@@ -1,0 +1,44 @@
+id: "baby-world"
+name: "Baby World"
+description: "将金蒲公英带到1.21"
+author: "YuWan"
+
+version: "0.1.0"
+minecraft: "1.21.11"
+
+directory: "."
+output: "build"
+ignore: []
+
+require:
+    - "stewbeet"
+    - "bolt"
+    - "beet.contrib.optifine"
+data_pack:
+    name: "baby-world-datapack" 
+    load: ["src"] 
+    overlays:
+        - formats:
+            min_inclusive: 33
+            max_inclusive: 57
+          min_format: 33
+          max_format: 57
+          directory: "1_21_3"
+resource_pack:
+    name: "babt-world-resourcepack"
+    load: ["src"]
+    overlays:
+        - formats:
+            min_inclusive: 33
+            max_inclusive: 42
+          min_format: 33
+          max_format: 42
+          directory: "1_21_3"
+pipeline:
+    - mecha
+    - archive
+    
+meta:
+    bolt:
+      entrypoint: 
+        - '*'

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:gold_nugget",
+    "I": "minecraft:dandelion"
+  },
+  "pattern": [
+    "###",
+    "#I#",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:stick",
+    "components": {
+      "item_model": "baby-world:golden_dandelion",
+      "custom_name": {
+        "translate": "baby-world.items.golden_dandelion",
+        "color": "gold",
+        "italic": false,
+        "bold": true
+      },
+      "custom_data": {
+        "item": "golden_dandelion"
+      },
+      "consumable": {
+        "animation": "none",
+        "sound": {
+          "sound_id": ""
+        },
+        "consume_seconds": 240000,
+        "has_consume_particles": false
+      }
+    }
+  }
+}

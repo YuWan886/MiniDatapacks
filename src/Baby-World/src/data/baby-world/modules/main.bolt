@@ -1,0 +1,7 @@
+append function_tag minecraft:load {
+    "values":["baby-world:load"]
+}
+
+append function_tag minecraft:tick {
+    "values":["baby-world:tick"]
+}

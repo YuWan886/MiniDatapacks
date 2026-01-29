@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "golden_dandelion_use":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": "stick",
+                    "predicates": {
+                        "custom_data": {
+                            "item":"golden_dandelion"
+                        }
+                    }
+                },
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "looking_at": {
+                            "type": "#baby-world:animal"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "baby-world:golden_dandelion"
+    }
+}

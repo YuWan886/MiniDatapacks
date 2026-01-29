@@ -1,0 +1,16 @@
+{
+	"pack": {
+		"pack_format": 15,
+		"description": "将金蒲公英带到1.21",
+		"supported_formats": [15,1000],
+		"min_format": [
+			15,
+			1
+		],
+		"max_format": [
+			1000,
+			0
+		]
+	},
+	"id": "baby-world"
+}

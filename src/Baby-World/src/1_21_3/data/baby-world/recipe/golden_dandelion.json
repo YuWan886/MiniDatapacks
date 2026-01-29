@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "gold_nugget"
+    },
+    "I": {
+      "item": "dandelion"
+    }
+  },
+  "pattern": [
+    "###",
+    "#I#",
+    "###"
+  ],
+  "result": {
+    "id": "carrot_on_a_stick",
+    "components": {
+      "custom_name": "{\"translate\": \"baby-world.items.golden_dandelion\",\"color\": \"gold\",\"italic\": false,\"bold\": true}",
+      "custom_data": {
+        "item": "golden_dandelion"
+      },
+      "custom_model_data": 10101
+    }
+  }
+}

@@ -1,0 +1,1 @@
+scoreboard objectives add baby-world.golden_dandelion_used used:carrot_on_a_stick

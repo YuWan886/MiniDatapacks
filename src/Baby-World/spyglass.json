@@ -1,0 +1,10 @@
+{
+    "env": {
+        "gameVersion": "1.21.1",
+        "useFilePolling": true,
+        "exclude": [
+            "build/**",
+            "src/data/baby-world/modules/**"
+        ]
+    }
+}

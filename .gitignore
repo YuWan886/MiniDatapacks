@@ -1,0 +1,5 @@
+*.pyc
+.vscode
+build/
+.beet_cache
+__pycache__
