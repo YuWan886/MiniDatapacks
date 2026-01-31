@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": [{"text":"Fishing Everything","color":"gold","bold":true},{"text":"\nby一条鱼丸_","color": "light_purple","bold": true}],
+        "min_format":74,
+        "max_format":1000
+    }
+}

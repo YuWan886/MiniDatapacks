@@ -1,0 +1,3 @@
+give @s fishing_rod[custom_name={translate:"item.fishing.fishing_rod",color:"gold",italic:false,bold:true},lore=[{translate:"item.fishing.fishing_rod.lore.1",color:"red",bold:true}],enchantments={"fishing:lure_plus":1},unbreakable={},tooltip_display={hidden_components:["enchantments","unbreakable"]},tooltip_style="fishing:fishing_rod"]
+
+tellraw @s ["",{color:"green",bold:true,text:"如果你不慎丢失了鱼竿，可以输入 ",extra:[{underlined:true,text:"/trigger get_fishing_rod",click_event:{action:"run_command",command:"/trigger get_fishing_rod"}}," 再拿一个:)"]}]

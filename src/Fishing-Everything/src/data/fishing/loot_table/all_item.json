@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "tag",
+                    "name": "fishing:all_item",
+                    "expand": true
+                }
+            ]
+        }
+    ]
+}

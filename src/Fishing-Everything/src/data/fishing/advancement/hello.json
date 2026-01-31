@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "hello":{
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "fishing:hello"
+    }
+}

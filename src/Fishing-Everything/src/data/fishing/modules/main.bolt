@@ -1,0 +1,6 @@
+append function_tag minecraft:load {
+    "values":["fishing:load"]
+}
+append function_tag minecraft:tick {
+    "values":["fishing:tick"]
+}

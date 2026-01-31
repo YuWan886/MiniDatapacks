@@ -1,0 +1,1 @@
+execute as @s[scores={roll=1}] run setblock ~ ~ ~ chest{LootTable:"chests/abandoned_mineshaft"} keep

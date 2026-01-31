@@ -1,0 +1,10 @@
+{
+    "env": {
+        "gameVersion": "Latest release",
+        "useFilePolling": true,
+        "exclude": [
+            "build/**",
+            "src/data/**/modules/**"
+        ]
+    }
+}

@@ -1,0 +1,1 @@
+execute as @e[type=item,distance=..50,nbt={Item:{id:"minecraft:paper",components:{"minecraft:custom_data":{item:"chest"}}}}] at @s run function fishing:chest/2

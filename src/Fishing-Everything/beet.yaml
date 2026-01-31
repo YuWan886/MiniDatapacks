@@ -1,0 +1,37 @@
+id: "fishing"
+name: "Fishing Everything"
+description: "钓鱼佬永不空军"
+author: "YuWan"
+
+version: "0.1.0"
+minecraft: "1.21.11"
+
+directory: "."
+output: "build"
+ignore: []
+
+require:
+    - "stewbeet"
+    - "bolt"
+    
+data_pack:
+    name: "fishing-datapack" 
+    load: ["src"] 
+resource_pack:
+    name: "fishing-resourcepack"
+    load: ["src"]
+pipeline:
+    - mecha
+    - generate
+    - beet.contrib.copy_files
+    - beet.contrib.minify_json
+    - archive
+    
+    
+meta:
+    bolt:
+      entrypoint: 
+        - '*'
+    copy_files:
+        resource_pack:
+            "redits.md": "src/redits.md"
